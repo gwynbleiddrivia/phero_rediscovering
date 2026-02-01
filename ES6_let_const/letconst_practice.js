@@ -1,0 +1,3 @@
+const country= 'BD';
+let price = 10;
+console.log(price)
