@@ -24,3 +24,18 @@ console.log(logIt());
 //document.getElementById('btn-click').addEventListener('click', event => {
     // function
 //})
+
+
+//In normal function, if I do this
+// function test(a,b){
+//  console.log(arguments); // [a,b]
+//}
+//test(1,2)
+//It will just console log [a,b]
+//In normal function, if I do this
+function test(a,b){
+  console.log(arguments); // [a,b]
+}
+console.log(test(1,2));
+//No it prints this, Arguments(2) [1, 2, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+
